@@ -21,9 +21,9 @@ import timethen from 'timethen';
 
 
 // or so
-timethen(2000, 'optional data')
-  .then((value) => {
-    console.log('in two seconds:', value) // in two seconds: optional data
+timethen(2000, 'val')
+  .then((val) => {
+    console.log('in two seconds:', val) // in two seconds: val
   })
 // !Only one "then"!
 
